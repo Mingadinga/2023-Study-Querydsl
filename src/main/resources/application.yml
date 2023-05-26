@@ -1,0 +1,23 @@
+spring:
+  # datasource
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/querydsl
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  # DDL 생성 옵션 - 실행 시점에 테이블 drop하고 다시 생성
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        # show_sql: true
+        format_sql: true
+
+# sql 포맷으로 로깅
+logging.level:
+  org.hibernate.SQL: debug
+  org.hibernate.type: trace
+
+
