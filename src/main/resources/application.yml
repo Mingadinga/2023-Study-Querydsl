@@ -14,6 +14,8 @@ spring:
       hibernate:
         # show_sql: true
         format_sql: true
+        use_sql_comments: true
+    database: h2
 
 # sql 포맷으로 로깅
 logging.level:
