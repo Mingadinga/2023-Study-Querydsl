@@ -16,4 +16,5 @@
 | 2023-05-28 | Section3. Querydsl 기본 문법 - 조인, 서브쿼리, case                     |
 | 2023-05-29 | Section4. Querydsl 중급 문법 - 프로젝션, 동적쿼리, 벌크, sql function       |
 | 2023-05-30 | Section5. 실무 활용 - 순수 JPA와 Querydsl        |
-| 2023-05-30 | Section6. 실무 활용 - 스프링 데이터 JPA와 Querydsl        |
+| 2023-05-31 | Section6. 실무 활용 - 스프링 데이터 JPA와 Querydsl        |
+| 2023-06-01 | Section7. 스프링 데이터 JPA가 제공하는 Querydsl 기능        |
